@@ -1,0 +1,18 @@
+[
+  {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "devnerdqa1+10000@outlook.com",
+    "password": "Password123!",
+    "phone": "1234567890",
+    "company": "Acme Corp"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "devnerdqa1+19000@outlook.com",
+    "password": "SecurePass456@",
+    "phone": "0987654321",
+    "company": "Beta Inc"
+  }
+]

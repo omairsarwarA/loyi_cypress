@@ -1,0 +1,56 @@
+[
+    {
+        "firstName": "User",
+        "lastName": "Test",
+        "email": "testuser1@yopmail.com",
+        "phone": "+34660099515",
+        "dob": { "day": "09", "month": "09", "year": "1999" },
+        "language": "gRK3lme2",
+        "notes": "testing ok"
+    },
+    {
+        "firstName": "User",
+        "lastName": "Two",
+        "email": "testuser2@yopmail.com",
+        "phone": "+34660099516",
+        "dob": { "day": "15", "month": "03", "year": "1995" },
+        "language": "gRK3lme2",
+        "notes": "testing user 2"
+    },
+    {
+        "firstName": "User",
+        "lastName": "Three",
+        "email": "testuser3@yopmail.com",
+        "phone": "+34660099517",
+        "dob": { "day": "22", "month": "07", "year": "1992" },
+        "language": "gRK3lme2",
+        "notes": "testing user 3"
+    },
+    {
+        "firstName": "User",
+        "lastName": "Four",
+        "email": "testuser4@yopmail.com",
+        "phone": "+34660099518",
+        "dob": { "day": "30", "month": "12", "year": "1990" },
+        "language": "gRK3lme2",
+        "notes": "testing user 4"
+    },
+    {
+        "firstName": "User",
+        "lastName": "Five",
+        "email": "testuser5@yopmail.com",
+        "phone": "+34660099519",
+        "dob": { "day": "05", "month": "05", "year": "1998" },
+        "language": "gRK3lme2",
+        "notes": "testing user 5"
+    },
+    {
+        "firstName": "User",
+        "lastName": "Six",
+        "email": "testuser6@yopmail.com",
+        "phone": "+34660099520",
+        "dob": { "day": "18", "month": "11", "year": "1996" },
+        "language": "gRK3lme2",
+        "notes": "testing user 6"
+    }
+]
