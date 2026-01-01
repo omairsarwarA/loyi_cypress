@@ -9,12 +9,10 @@
     "rimraf": "^6.0.1"
   },
   "scripts": {
-    "clean:reports": "rimraf cypress/reports",
-    "test:cards": "cypress run --spec 'cypress/e2e/loyi/*'",
-    "test:auth": "cypress run --spec 'cypress/e2e/auth/*'",
-    "report:merge": "npx mochawesome-merge cypress/reports/*.json > cypress/reports/report.json",
-    "report:generate": "npx marge cypress/reports/report.json -f report -o cypress/reports/html",
-    "report:cards": "npm run test:cards && npm run report:merge && npm run report:generate",
-    "report:all": "npm run clean:reports && npm run test:cards && npm run report:merge && npm run report:generate"
-  }
+  "clean:reports": "rimraf cypress/reports",
+  "test:all": "cypress run --spec \"cypress/e2e/**/*\"",
+  "report:merge": "npx mochawesome-merge cypress/reports/*.json > cypress/reports/report.json",
+  "report:generate": "npx marge cypress/reports/report.json -f report -o cypress/reports/html",
+  "report:all": "npm run clean:reports && npm run test:all && npm run report:merge && npm run report:generate"
+}
 }
