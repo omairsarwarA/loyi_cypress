@@ -103,4 +103,5 @@ it('update customer data', () => {
     deleteCard.clickdeleteCardLink();
     deleteCard.clickConfirmDeleteButton();
     deleteCard.messagedisplay();
+    console.log('ok');
 });
